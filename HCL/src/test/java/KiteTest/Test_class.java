@@ -51,6 +51,7 @@ public class Test_class extends Base1 {
 	@AfterMethod
 	public void logoutApp() {
 		Reporter.log("logout the application",true);
+		system.prinln("shubham");
 	}
 	@AfterClass
 	public void closebrowser() {
